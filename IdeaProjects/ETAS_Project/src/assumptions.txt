@@ -1,0 +1,17 @@
+Assumptions made:
+
+1) The number plates always follow the same format of memory tag (2 letter), Age identifier (2 numbers), then 3 random letters at the end
+ie this excludes private plates that could have just 3 or 4 digits on the number plate
+
+2) The date of the plate must be after March 1st 2001
+ie the way the age identifier was calculated changed after March 1st 2001, as before then it was just 1 letter identifying the year
+
+3) Assume the memory tag and random letters do not include 'I' and/or 'Q'
+
+4) Assume that hardcoded values are valid
+ie there is no validation confirming this like there is for custom values
+
+5) Assume the user provides valid input when on the menu option
+ie there is no handling for invalid inputs
+
+6) Assume user has the authority to view all previously generated plates
